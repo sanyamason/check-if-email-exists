@@ -3,7 +3,7 @@
 # For a production-ready web server, please see https://github.com/reacherhq/backend.
 # This Dockerfile will be **deprecated** soon, and removed from the
 # Docker Hub: https://hub.docker.com/r/reacherhq/check-if-email-exists.
-FROM alpine
+FROM alpine:3.15.4
 
 # `ciee` stands for check-if-email-exists
 WORKDIR /ciee
